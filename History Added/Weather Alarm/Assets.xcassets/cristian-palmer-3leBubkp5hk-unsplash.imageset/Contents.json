@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "cristian-palmer-3leBubkp5hk-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "cristian-palmer-3leBubkp5hk-unsplash@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "cristian-palmer-3leBubkp5hk-unsplash@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4Xv-ie-LWQ">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="d9s-pZ-hh1">
+            <objects>
+                <viewController id="4Xv-ie-LWQ" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="BJJ-Rc-vxc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sun.max" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2co-xc-W9d">
+                                <rect key="frame" x="20" y="243" width="335" height="180.5"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="APl-Bt-SxJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Alarm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEW-8C-4uq">
+                                <rect key="frame" x="131" y="532" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uj4-17-veS"/>
+                        <color key="backgroundColor" red="0.10491030578894756" green="0.72382432961054544" blue="0.8521630817755681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="uj4-17-veS" firstAttribute="bottom" secondItem="sEW-8C-4uq" secondAttribute="bottom" constant="114" id="3qE-H2-yy7"/>
+                            <constraint firstItem="2co-xc-W9d" firstAttribute="centerY" secondItem="BJJ-Rc-vxc" secondAttribute="centerY" id="85w-NZ-3fK"/>
+                            <constraint firstItem="2co-xc-W9d" firstAttribute="leading" secondItem="BJJ-Rc-vxc" secondAttribute="leading" constant="20" id="8pa-Ot-38U"/>
+                            <constraint firstAttribute="trailing" secondItem="2co-xc-W9d" secondAttribute="trailing" constant="20" id="PrP-X8-L2R"/>
+                            <constraint firstItem="2co-xc-W9d" firstAttribute="centerX" secondItem="BJJ-Rc-vxc" secondAttribute="centerX" id="XA1-Gz-1Qu"/>
+                            <constraint firstItem="sEW-8C-4uq" firstAttribute="centerX" secondItem="BJJ-Rc-vxc" secondAttribute="centerX" id="g6Y-BP-sek"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rlb-ch-EQq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-110" y="298"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sun.max" catalog="system" width="128" height="124"/>
+    </resources>
+</document>
